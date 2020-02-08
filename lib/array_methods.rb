@@ -14,8 +14,8 @@ def find_max_value(array)
   while i < array.length do
     if array[i] > x
      x = array[i]
-     i += 1
     end
+    i += 1
   x  
   end
 end
@@ -26,8 +26,8 @@ def find_min_value(array)
   while i < array.length do
     if array[i] >= x 
       x = array[i] 
-      i += 1
     end
+    i += 1
   x
   end
 end
