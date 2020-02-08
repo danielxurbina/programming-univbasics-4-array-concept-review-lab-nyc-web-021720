@@ -15,6 +15,7 @@ array.length.times { |i|
     array[i] = x
   end
 }
+x
 end
 
 def find_min_value(array)
